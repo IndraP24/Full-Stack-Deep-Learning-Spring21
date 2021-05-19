@@ -5,6 +5,10 @@ from torch.utils.data import random_split
 from torchvision.datasets import MNIST as TorchMNIST
 from torchvision import transforms
 
+import sys
+sys.path.append('/mnt/d/Projects/All Projects/FSDL-21-Codes-and-Lab/Text Recognizer Pro/lab1')
+print('paths: ', sys.path)
+
 from text_recognizer.data.base_data_module import BaseDataModule, load_and_print_info
 
 DOWNLOADED_DATA_DIRNAME = BaseDataModule.data_dirname() / "downloaded"
