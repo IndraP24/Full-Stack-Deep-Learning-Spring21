@@ -8,6 +8,10 @@ import h5py
 import numpy as np
 import torch
 
+
+import sys
+sys.path.append('D:\Projects\All Projects\FSDL-21-Codes-and-Lab\Text Recognizer Pro\lab3')
+
 from text_recognizer.data.util import BaseDataset
 from text_recognizer.data.base_data_module import BaseDataModule, load_and_print_info
 from text_recognizer.data.emnist import EMNIST

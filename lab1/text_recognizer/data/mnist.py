@@ -6,8 +6,7 @@ from torchvision.datasets import MNIST as TorchMNIST
 from torchvision import transforms
 
 import sys
-sys.path.append('/mnt/d/Projects/All Projects/FSDL-21-Codes-and-Lab/Text Recognizer Pro/lab1')
-print('paths: ', sys.path)
+sys.path.append('D:\Projects\All Projects\FSDL-21-Codes-and-Lab\Text Recognizer Pro\lab1')
 
 from text_recognizer.data.base_data_module import BaseDataModule, load_and_print_info
 
