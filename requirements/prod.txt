@@ -26,8 +26,6 @@ chardet==4.0.0
     #   requests
 click==7.1.2
     # via flask
-dataclasses==0.8
-    # via torch
 editdistance==0.5.3
     # via -r requirements/prod.in
 flask==1.1.2
@@ -46,11 +44,8 @@ grpcio==1.36.1
     # via tensorboard
 h5py==3.1.0
     # via -r requirements/prod.in
-idna-ssl==1.1.0
-    # via aiohttp
 idna==2.10
     # via
-    #   idna-ssl
     #   requests
     #   yarl
 importlib-metadata==3.10.0
@@ -146,6 +141,8 @@ werkzeug==1.0.1
     #   tensorboard
 wheel==0.36.2
     # via tensorboard
+wincertstore==0.2
+    # via -r requirements/prod.in
 yarl==1.6.3
     # via aiohttp
 zipp==3.4.1
