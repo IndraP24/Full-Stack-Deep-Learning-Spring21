@@ -1,4 +1,4 @@
-name: fsdl21
+name: FSDLCONDA
 channels:
   - defaults
 dependencies:
