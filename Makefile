@@ -5,7 +5,6 @@ help:
 # Install exact Python and CUDA versions
 conda-update:
 	conda env update --prune -f environment.yml
-	echo "!!!RUN RIGHT NOW:\nconda activate FSDLCONDA"
 
 # Compile and install exact pip packages
 pip-tools:

@@ -48,7 +48,7 @@ idna==2.10
     # via
     #   requests
     #   yarl
-importlib-metadata==3.10.0
+importlib-metadata==4.5.0
     # via
     #   fsspec
     #   markdown
@@ -113,7 +113,7 @@ tensorboard==2.4.1
     # via pytorch-lightning
 toml==0.10.2
     # via -r requirements/prod.in
-torch==1.8.1
+torch==1.7.1
     # via
     #   -r requirements/prod.in
     #   pytorch-lightning
@@ -121,7 +121,7 @@ torch==1.8.1
     #   torchvision
 torchmetrics==0.2.0
     # via pytorch-lightning
-torchvision==0.9.1
+torchvision==0.8.2
     # via -r requirements/prod.in
 tqdm==4.59.0
     # via

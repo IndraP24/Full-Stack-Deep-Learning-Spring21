@@ -80,7 +80,7 @@ idna==2.10
     #   -c requirements/prod.txt
     #   anyio
     #   requests
-importlib-metadata==3.10.0
+importlib-metadata==4.5.0
     # via
     #   -c requirements/prod.txt
     #   jsonschema
