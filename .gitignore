@@ -2,6 +2,8 @@
 data/downloaded
 data/processed
 data/interim
+notebooks/
+*.ipynb
 
 # Logs
 training/logs
